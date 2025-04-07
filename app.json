@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Sayım Fişi",
+    "slug": "inventory-count-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.inventorycountapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.example.inventorycountapp"
+    },
+    "web": {
+      "favicon": "./src/assets/images/favicon.png"
+    },
+    "description": "Envanter sayım işlemlerini yapmak için mobil uygulama",
+    "extra": {
+      "eas": {
+        "projectId": "ebe32e1a-0292-44ad-9362-3449e6458984"
+      }
+    },
+    "owner": "rkymtc",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ebe32e1a-0292-44ad-9362-3449e6458984"
+    }
+  }
+}
